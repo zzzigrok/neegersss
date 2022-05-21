@@ -621,5 +621,4 @@ async def on_ready():
     await bot.change_presence(activity=discord.Game(name="PlanetBot | +help"))
 
 token = 'OTMwMTY4NzM3NDM5NTYzODU2.G5QvHo.4G8U73ABisXkwEHt8kBEs5OqL2X_4p92Seb7BQ'
-keep_alive.keep_alive()
 bot.run(token)
